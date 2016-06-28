@@ -4,8 +4,8 @@ var utils = require('./css.loader.utils');
 var CompileConfig = require('./config');
 
 module.exports = {
-    entry: ['./src/app.js','./src/bonday.js'],
-    //entry: './src/app.js',
+    //entry: ['./src/app.js','./src/bonday.js'],
+    entry: './src/app.js',
     output: {
         path: CompileConfig.build.buildPath,
         filename: "bundle.js"
