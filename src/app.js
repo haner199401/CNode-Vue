@@ -1,7 +1,6 @@
 /*jshint esversion: 6 */
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import Vuex from 'vuex';
 import * as filters from './common/javascript/filters';
 import App from './App.vue';
 import Views from './views';

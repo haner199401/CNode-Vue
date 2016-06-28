@@ -17,13 +17,14 @@ module.exports = {
         },
         assetsSubDirectory:'resources',
         productionGzip: true,
-        productionGzipExtensions: ['js', 'css']
+        productionGzipExtensions: ['js', 'css'],
+        productionSourceMap:false
     },
     dev: {
         env: {
             NODE_ENV: '"development"'
         },
-        port: 8088
+        port: 8087
     },
     cleanFolders:['build']//项目根目录为起始
 };
